@@ -1,0 +1,102 @@
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #555;
+            max-width: 1366px;
+            background-image: url('nat-8.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+        .container{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-15vh);
+            height: 100vh;
+            transform: translateY(2vh);
+        }
+        
+        .wrapper{
+            display: flex;
+        }
+
+        .btn_start{
+            /* transform: translateY(-20vh); */
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .box{
+            border-radius: 10px;
+            background-color: #fff;
+            margin-right: 4rem;
+            font-size: 6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: transform 1s ease-out;
+        }
+
+        .box:hover{
+           /*  animation-name: scaled;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out; */
+            transform: scale(1.2,1.2);
+            box-shadow: 1px 5px 20px #444;
+        }
+
+            @keyframes scaled{
+                0%{
+                    transform: scale(1.2,1.2);
+                }
+
+                100%{
+                    transform: scale(1.2,1.2);
+                }
+            }
+        .box:last-child{
+            margin-right: 0;
+        }
+        .title{
+            font-size: 2rem;
+            padding: 1rem 3rem;
+        }
+
+        .title-text{
+            background-color: #444444;
+            color: #fff;
+            padding: 1rem 2rem;
+            margin-top: 2rem;
+            font-size: 2rem;
+            font-family: 'Ubuntu';
+            letter-spacing: .4rem;
+            text-transform: uppercase;
+        }
+
+        .btn_start-btn{
+            background-color: #132322;
+            padding: 1rem 3rem;
+            border: none;
+            color: rgb(226, 226, 226);
+            font-size: 1.6rem;
+            text-transform: uppercase;
+        }
+
+        .btn_start-btn:hover{
+            border: none;
+            outline: none;
+            background-color: rgba(42, 231, 4, 0.993);
+            color: #132322;
+            /* animation-name: scaled;
+            animation-duration: 3s; */
+        }
