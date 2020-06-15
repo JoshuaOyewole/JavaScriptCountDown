@@ -32,36 +32,7 @@
     };
       
 
-    function randoomLetter(){
-        var noArray, randNo;
-
-        noArray = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','Y','Z'];
-        i = Math.floor(Math.random() * noArray.length);
-        console.log(noArray[i]);
-    }
   
-   
-    let s = 60; //60s
-    console.log(s);
-    
-    function timer(){
-        /* document.getElementById('sec').innerText = (s < 10)? '0' + s : s; */
-     /*    console.log(s);
-        s--;
-        console.log(s + 'Hello');
-        
-        if(s == -1){
-            console.log('Time out');
-            clearInterval(timer);
-        } */
-        let s =50;
-        s = s +2;
-        console.log(s);
-        
-    } 
-    timer();
-    console.log(s);
-    
 
     
 
