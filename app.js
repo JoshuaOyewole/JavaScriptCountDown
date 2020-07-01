@@ -3,7 +3,7 @@
         var date = new Date();
         var currentYear = date.getFullYear();
 
-        var eventDate = new Date(currentYear,06,01);
+        var eventDate = new Date(2021,06,01);
         var now = new Date();
 
         //All in secs i.e converting from milliseconds to seconds
